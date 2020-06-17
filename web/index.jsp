@@ -12,7 +12,7 @@
   </head>
   <body>
   <h2>Currency Converter</h2>
-  <form method="post" action="${pageContext.request.contextPath}/convert">
+  <form method="post" action="convert">
     <label>Rate: </label>
     <input type="text" name="rate" placeholder="Rate" value="22000"><br>
     <label>USD: </label>
